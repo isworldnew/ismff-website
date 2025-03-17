@@ -7,7 +7,7 @@ import InfoPage from './Pages/InfoPage/InfoPage';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <Router>
+      <Router basename="/ismff-website">
           <Routes>
               <Route path="/" element={<HelloPage />} />
               <Route path="/info-page" element={<InfoPage />} />
