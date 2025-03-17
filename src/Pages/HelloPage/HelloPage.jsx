@@ -1,15 +1,15 @@
 import './HelloPage.css';
-import Header from '../../CommonComponents/Header/Header';
-import Footer from '../../CommonComponents/Footer/Footer';
+import Header from '../../CommonComponents/Header/Header'
+import Footer from '../../CommonComponents/Footer/Footer'
 
 export default function HelloPage() {
 
     const handleClick = () => {
         // window.location.href="/info-page";
-        alert("Работает)");
-    };    
+        alert("Работает)")
+    }    
 
-    return (
+    return(
         <>
             <Header />
             <div className="hello-page">
@@ -17,11 +17,7 @@ export default function HelloPage() {
                 <button className="hello-button" onClick={handleClick}>
                     нажми меня
                 </button>
-                <img 
-                    src="../../../public/cat.jpg" 
-                    alt="Пример изображения" 
-                    className="hello-image" 
-                />
+                <img src="" alt="" />
             </div>
             <Footer />
         </>
